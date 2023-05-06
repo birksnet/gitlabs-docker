@@ -8,5 +8,11 @@ Para instalação do servidor GitLabs com docker e docker compose
 
 ## Instalação 
 1. Clone o Projeto e abra o terminal na raiz do projeto.
-2. Execute o comando ´´´ make ´´´ na raiz do projeto.
-3. Execute o comaando ´´ ./bin/install.sh ´´´ na raiz do projeto.
+2. Execute o comando ( ***make*** ) na raiz do projeto.
+3. Execute o comaando ( ***lab install*** ) na raiz do projeto.
+
+## Comandos
+1. Comando ***make** concede a permissão aos arquivos executaveis
+2. Comando ***lab install*** cria e inicia os container
+3. Comando ***lab connect runner*** entra no terminal do container gitlabs-runner
+4. Comando ***lab connect labs*** entra no terminal do container gitlabs-ee
